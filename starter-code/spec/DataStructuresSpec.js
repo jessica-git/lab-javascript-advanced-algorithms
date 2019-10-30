@@ -45,7 +45,7 @@ describe("Stack", function() {
 
   describe ("Stack methods usage", function () {
     it ("Should add the indicated element to the stack", function () {
-      stack.push(19);
+      stack.push(19);      
 
       expect(stack.stackControl.length).toBe(1);
     });
@@ -93,6 +93,11 @@ describe("Stack", function() {
     });
   });
 });
+
+
+
+
+
 
 describe("Queues", function() {
   var queue;
